@@ -12,3 +12,4 @@ function lesson1(){
     console.log(template);
 }
 lesson1()
+/**/*/
