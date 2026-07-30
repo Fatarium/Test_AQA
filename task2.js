@@ -1,22 +1,15 @@
-const averageGrade=85;
-
-switch (true){
-case (averageGrade>=91 && averageGrade<= 100):
-    console.log("Відмінно")
-    break
-case (averageGrade>=81 && averageGrade<=90):
-    console.log("Дуже добре")
-     break
-case (averageGrade>=71 && averageGrade<=80):
-    console.log("Добре")
-    break
-case (verageGrade>=60 && averageGrade<=70):
-    console.log("Задовільно")
-    break
-case (averageGrade<=60):
-    console.log("Незадовільно")
-    break
+function lesson1(){
+    let a
+    a="Andrii"
+    let b
+    b="Serhii"
+    let pryvit
+    pryvit="Gривіт QA "
+    let all
+    all=pryvit+a+" та "+b
+    console.log(all)
+     let template = `Привіт QA ${a} та ${b}!`;
+    console.log(template);
 }
-
-
-
+lesson1()
+/**/*/

@@ -1,13 +1,6 @@
-const number = 5;
+let age = 25;
+let isAdult = age >= 18;
 
-for (let i = 1; i <= 10; i++) {
-  console.log(number + " x " + i + " = " + number * i);
-}
-
-const number = 5
-let i=1
-while (i<= 10){
-    console.log(number + " x " + i + " = " + number * i);
-    i++
-}
-
+console.log(age);
+console.log(isAdult);
+*/*/
