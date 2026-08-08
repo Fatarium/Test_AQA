@@ -11,3 +11,5 @@ function lesson1(){
      let template = `Привіт QA ${a} та ${b}!`;
     console.log(template);
 }
+lesson1()
+/**/*/
